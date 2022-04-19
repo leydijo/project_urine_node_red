@@ -2,7 +2,9 @@
     "name": "project_urine_node_red",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-dashboard": "^3.1.6"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
